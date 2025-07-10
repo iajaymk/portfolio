@@ -1,0 +1,22 @@
+export const themes = [
+    {
+      name:'theme-light',
+      primaryColor:'#ffffff'
+    },
+    {
+      name:'theme-sunset',
+      primaryColor:'#ede6d3'
+    },
+    {
+      name:'theme-ocean',
+      primaryColor:'#0779ff'
+    },
+    {
+      name:'theme-forest',
+      primaryColor:'#37af5d'
+    },
+    {
+      name:'theme-city',
+      primaryColor:'#3c0350'
+    }
+];
