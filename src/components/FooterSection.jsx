@@ -4,14 +4,14 @@ const FooterSection = () => {
     return (
         <div className="max-w-[1440px] my-8 px-4 flex justify-between items-end">
             <div className="">
-            <div className="font-bold text-xl text-[var(--color-secondary)]">
+            <div className="font-bold text-xl">
                 SOCIAL
             </div>
             <div className="flex gap-3">
             {socials.map((item,index)=>(
-                <div className="uppercase hover:text-[var(--color-secondary)]" key={index}>
+                <a href={item.url} className="uppercase text-[var(--color-secondary)] hover:text-[var(--color-onPrimary)]" key={index}>
                     {item.name}
-                </div>
+                </a>
             ))}
             </div>
             </div>
