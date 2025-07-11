@@ -1,0 +1,15 @@
+export const skills = [
+    {name:"HTML", logo:"/logos/html.svg", show:true},
+    {name:"CSS", logo:"/logos/css-3.svg", show:true},
+    {name:"Bootstrap", logo:"/logos/bootstrap.png", show:true},
+    {name:"Tailwind", logo:"/logos/tailwind.svg", show:true},
+    {name:"Javascript", logo:"/logos/js.svg", show:true},
+    {name:"Typescript", logo:"/logos/typescript.svg", show:true},
+    {name:"JQuery", logo:"/logos/jquery.svg", show:true},
+    {name:"Angular", logo:"/logos/angular.png", show:true},
+    {name:"React", logo:"/logos/react.svg", show:true},
+    {name:"React Native", logo:"/logos/javascript.svg", show:false},
+    {name:"Next JS", logo:"/logos/nextjs.svg", show:true},
+    {name:"Ngrx", logo:"/logos/ngrx.svg", show:true},
+    {name:"GSAP", logo:"/logos/gsap.svg", show:true},
+]
