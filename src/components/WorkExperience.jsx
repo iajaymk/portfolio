@@ -7,8 +7,8 @@ const WorkExperience = () => {
             <div className="mt-4">
             {WORK.map((item,index) => (
                 <div className="my-4" key={index}>
-                    <div className="font-[800] text-lg">{item.companyName}</div>
-                    <div className="font-[600] text-md">{item.position}</div>
+                    <div className="font-[800] text-lg text-[var(--color-secondary)]">{item.companyName}</div>
+                    <div className="font-[600] text-md text-[var(--color-secondary)]">{item.position}</div>
                     <div className="">{item.time}</div>
                 </div>
             ))}
