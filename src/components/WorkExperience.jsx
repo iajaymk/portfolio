@@ -2,7 +2,7 @@ import { WORK } from "@/constants/experience";
 
 const WorkExperience = () => {
     return (
-        <div className=" max-w-[1440px] h-[100vh] flex flex-col justify-center items-center ">
+        <div className=" max-w-[1440px] h-[100vh] flex flex-col justify-center items-center m-auto">
             <h2 className="text-center text-4xl uppercase font-[600]">Work Experience</h2>
             <div className="mt-4">
             {WORK.map((item,index) => (
