@@ -11,5 +11,6 @@ export const skills = [
     {name:"React Native", logo:"/logos/javascript.svg", show:false},
     {name:"Next JS", logo:"/logos/nextjs.svg", show:true},
     {name:"Ngrx", logo:"/logos/ngrx.svg", show:true},
-    {name:"GSAP", logo:"/logos/gsap.svg", show:true},
+    {name:"Python", logo:"/logos/python.png", show:true},
+    {name:"GSAP", logo:"/logos/gsap.svg", show:false},
 ]
